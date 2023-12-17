@@ -1,7 +1,7 @@
 const passwords = require('./Passwords')
 
 exports.getPassword = (req, res) => {
-    res.json(passwords.getAllPassword)
+    res.json(passwords.getAllPassword())
 }
 
 exports.createPassword = (req, res) => {
