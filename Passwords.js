@@ -37,4 +37,4 @@ class Passwords {
     }
 }
 
-module.exports = Passwords
+module.exports = new Passwords()
